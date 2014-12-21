@@ -1,0 +1,357 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+body {
+	background-color: #ffecef;
+}
+
+.startBtn {
+	background: #72cad4;
+	border: 2px solid white;
+	border-radius: 100px;
+	color: #fff;
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	left: 50px;
+	top: 30px;
+	z-index: 1000;
+	text-align: center;
+}
+
+
+.conf {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 999;
+}
+
+main {
+	display: block;
+	margin: 0 auto;
+	width: 652px;
+	background: url(../images/bg.gif) repeat-y left top;
+	position: relative;
+}
+
+main:before,
+main:after {
+	content: '';
+	display: block;
+	width: 72px;
+	height: 100%;
+	background: url(../images/bg2.gif) repeat-y left top;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+main:after {
+	right: 0;
+	left: auto;
+	background-position: right top;
+}
+
+main > section {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+}
+
+
+main > section >  p {
+	position: absolute;
+}
+
+.balloon {
+	position: fixed;
+	width: 111px;
+	height: 349px;
+	left: 50%;
+	bottom:  293px;
+	margin-left: -55px;
+	z-index: 1;
+	
+}
+.rain {
+	background: url(../images/rain/rain.png) repeat-y left top;
+	position: fixed;
+	width: 100%;
+	height: 3500px;
+	left: 0;
+	top: 0;
+	background-position: center;
+	z-index: 2;
+}
+
+/*----------------------------------------
+夜
+----------------------------------------*/
+
+#night {
+	display: block;
+	margin: 0 auto;
+	width: 652px;
+	background: url(../images/bg4.gif) repeat-y left top;
+	position: relative;
+}
+#night .star1 {
+	width: 41px;
+	height: 40px;
+	left: 75px;
+	top: 70px;
+	z-index: 4;
+}
+#night .star2 {
+	width: 45px;
+	height: 45px;
+	left: 485px;
+	top: 80px;
+	z-index: 3;
+}
+#night .star3 {
+	width: 73px;
+	height: 69px;
+	left: 96px;
+	top: 530px;
+	z-index: 2;
+}
+#night .black {
+	width: 600px;
+	height: 600px;
+	left: 26px;
+	top: 0px;
+	z-index: 1;
+}
+#night .hosi {
+	width: 600px;
+	height: 500px;
+	left: 10px;
+	top: 0px;
+	z-index: 1;
+}
+#night .bird {
+	position: relative; 
+	width: 402px;
+	height: 121px;
+	left: 190px;
+	top: 150px;
+	z-index: 3;
+}
+
+/*----------------------------------------
+夕方
+----------------------------------------*/
+
+#evening {
+	display: block;
+	margin: 0 auto;
+	width: 652px;
+	background: url(../images/bg3.gif) repeat-y left top;
+	position: relative;
+}
+
+#evening img {
+	position: relative;
+}
+
+#evening .cloud {
+	width: 251px;
+	height: 218px;
+	left: 403px;
+	top: 21px;
+	z-index: 11;
+}
+#evening .cloud2 {
+	width: 279px;
+	height: 299px;
+	left: 0px;
+	top: 11px;
+	z-index: 10;
+}
+#evening .star {
+	width: 69px;
+	height: 65px;
+	left: 500px;
+	top: 8px;
+	z-index: 9;
+}
+#evening .star2 {
+	width: 52px;
+	height: 50px;
+	left: 64px;
+	top: 0px;
+	z-index: 8;
+}
+#evening .star3 {
+	width: 41px;
+	height: 40px;
+	left: 105px;
+	top: 1px;
+	z-index: 7;
+}
+#evening .wing {
+	width: 83px;
+	height: 69px;
+	left: 64px;
+	top: 444px;
+	z-index: 6;
+}
+#evening .wing2 {
+	width: 102px;
+	height: 93px;
+	left: 66px;
+	top: 253px;
+	z-index: 5;
+}
+#evening .wing3 {
+	width: 99px;
+	height: 33px;
+	left: 354px;
+	top: 462px;
+	z-index: 3;
+}
+#evening .wing4 {
+	width: 118px;
+	height: 119px;
+	left: 300px;
+	top: 419px;
+	z-index: 2;
+}
+#evening .perple {
+	width: 600px;
+	height: 600px;
+	left: 26px;
+	top: 0px;
+	z-index: 1;
+}
+
+/*----------------------------------------
+虹
+----------------------------------------*/
+
+#rainbow .cloud1 {
+	width: 210px;
+	height: 224px;
+	left: 443px;
+	top: 0px;
+	z-index: 5;
+}
+#rainbow .cloud2 {
+	width: 247px;
+	height: 220px;
+	left: 0px;
+	top: 380px;
+	z-index: 4;
+}
+#rainbow .rainbow {
+	width: 548px;
+	height: 600px;
+	left: 25px;
+	top: 0px;
+	z-index: 3;
+}
+#rainbow .orange {
+	width: 600px;
+	height: 600px;
+	left: 26px;
+	top: 0px;
+	z-index: 1;
+}
+
+/*----------------------------------------
+ 雨
+----------------------------------------*/
+
+#rain .rain-cloud {
+	width: 443px;
+	height: 311px;
+	left: 448px;
+	top: 0px;
+	z-index: 4;
+}
+ #rain .rain-cloud2 {
+	width: 350px;
+	height: 318px;
+	left: 0px;
+	top: 8px;
+	z-index: 3;
+}
+
+/*----------------------------------------
+晴れ
+----------------------------------------*/
+
+#sunny .girl2 {
+	width: 380px;
+	height: 519px;
+	left: 160px;
+	top: 130px;
+	z-index: 4;
+	opacity: 0;
+}
+
+#sunny .girl {
+	width: 258px;
+	height: 442px;
+	left: 190px;
+	top: 158px;
+	z-index: 3;
+}
+#sunny .road {
+	width: 416px;
+	height: 114px;
+	left: 210px;
+	top: 486px;
+	z-index: 2;
+}
+
+
+
+[class*=confetti] {
+	position: absolute;
+	height: 6px;
+	width: 6px;
+	opacity: 0.4;
+	z-index: 999;
+	-webkit-animation-iteration-count: infinite;
+}
+
+[class*=confetti]:nth-child(odd) {
+	-webkit-animation-duration: 0.4s;
+	-webkit-animation-name: confetti1;
+}
+[class*=confetti]:nth-child(even) {
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-name: confetti2;
+}
+
+@-webkit-keyframes confetti1 {
+	0% {
+	}
+	50% {
+		-webkit-transform: translateX(3px) rotateX(90deg) rotateY(45deg);
+	}
+	100% {
+		-webkit-transform: rotateX(180deg) rotateY(45deg);
+	}
+}
+@-webkit-keyframes confetti2 {
+	0% {
+	}
+	50% {
+		-webkit-transform: translateX(-3px) rotateY(90deg) rotateX(45deg);
+	}
+	100% {
+		-webkit-transform:rotateY(180deg) rotateX(45deg);
+	}
+}
